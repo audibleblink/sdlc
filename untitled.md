@@ -1,5 +1,5 @@
 ---
-description: Some stuff and things as a description
+description: Some stuff and things as a description. Another descriptive line.
 ---
 
 # The Frontend
