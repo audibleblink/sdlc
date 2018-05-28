@@ -20,6 +20,7 @@ render correctly.
 __Where the malicious input originates from the victim's request__
 
 ![credit to excessxss.com](images/reflected-xss.png)
+
 Reflected XSS vulnerabilities come from taking user input and having the server process that input
 and send it back, unescaped, for the browser to render (and execute). Below is an example of
 vulnerable code
