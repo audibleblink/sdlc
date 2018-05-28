@@ -1,4 +1,12 @@
-# SDLC
+This document is meant serve as a baseline for creating Secure Software Development Lifecycle
+within any organization.
 
-This document is intended to assist in creating a customized SDLC program in any organization where
-developers are involved in the core product.
+It includes some core curriculum that help developers understand how to think securely when
+implementing features. It also includes examples of the kind of exploitation that can occur when
+certain precautions aren't taken.
+
+On the Github repo where this Gitbook is maintained, there are interactive labs that can be
+deployed and consumers of this curriculum can carry out some of the attacks outlined in this
+curriculum.
+
+This should be considered a living document and Pull Requests are most welcome.
