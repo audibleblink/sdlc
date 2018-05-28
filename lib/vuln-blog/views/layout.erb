@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+  <html class="no-js" lang="en" >
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title><%= title %></title>
+      <link href=<%= url('http://fonts.googleapis.com/css?family=Ubuntu+Mono') %> rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href=<%= url("css/normalize.css") %>>
+      <link rel="stylesheet" type="text/css" href=<%= url("css/foundation.css") %>>
+      <link rel="stylesheet" type="text/css" href=<%= url("css/app.css") %>>
+      <script href=<%= url("js/vendor/modernizr.js") %>></script>
+      <% puts request.inspect %>
+    </head>
+    <body>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="nav-bar right">
+            <ul class="button-group">
+                <li><a href="/search" class="button">Search</a></li>
+              <% if logged_in? %>
+                <li><a href="/posts/new" class="button">Post</a></li>
+              <% else %>
+                <li><a href="/login" class="button">Log In</a></li>
+              <% end %>
+            </ul>
+          </div>
+          <h1><a href="/">Hello. </a><small>This is blog.</small></h1>
+          <hr/>
+        </div>
+      </div>
+
+      <div class="row">
+
+
+        <div class="large-9 columns" role="content">
+
+          <%= yield %>
+
+        </div>
+
+        <aside class="large-3 columns">
+
+        </aside>
+
+      </div>
+
+      <footer class='row'  >
+        <br/>
+        <br/>
+        <div class="large-12 panel radius">
+          <p> Housekeeping </p>
+          <ul class='button-group'>
+            <li> <a class='radius tiny secondary button' href='/phish'> Support </a> </li>
+            <li> <a class='alert button radius tiny' href='/reset'> Reset </a> </li>
+          </ul>
+        </div>
+      </footer>
+      <script src=<%= url("js/vendor/jquery.js") %>></script>
+      <script src=<%= url("js/foundation.min.js") %>></script>
+      <script> $(document).foundation() </script>
+    </body>
+  </html>

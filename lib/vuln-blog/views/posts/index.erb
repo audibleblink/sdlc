@@ -1,0 +1,13 @@
+<ul>
+  <% @posts.each do |post| %>
+    <article>
+      <h3><a href="/posts/<%= post.id %>"><%= post.title %></a></h3>
+      <h6 class="tighten">
+	<a href="#"><%= post.user.name %></a>
+	<span class="noblack"> <%=pretty_date(post.created_at) %> </span>
+      </h6> 
+      <p class="seperate noblack"><%= post.body %></p>
+    </article>
+    <hr>
+  <% end %>
+</ul>

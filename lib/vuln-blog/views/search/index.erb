@@ -1,0 +1,18 @@
+<h3 class="noblack">Search</h3>
+
+<p> Enter a term to search </p>
+
+<form action="/search" method="get">
+
+  <label for="q">Query: </label> </br>
+  <input id="q" name="q" type="text"  /> </br>
+
+  <input type="submit" value="Search" />
+
+  <% if params[:q] %>
+    <h3> Results: </h3>
+
+    <p> No results for query: <%= params[:q] %> </p>
+  <% end %>
+
+</form>
