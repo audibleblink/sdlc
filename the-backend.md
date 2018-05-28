@@ -204,6 +204,12 @@ Most of the above vulnerabilities can be chained to ultimately achieve code exec
 is rare, but still happens occasionally. It's often introduced by 3rd party libraries or failing to
 validate input before passing user-supplied input to `eval` or `exec`-like commands.
 
+### Solution
+
+User-supplied input should never be passed to any kind of `eval` or `system()`-like functions.
+These functions should be used sparingly but if they are necessary, ensure that input is verified
+against a whitelist.
+
 ### Examples
 
 Using the latest version of some library does not guarantee that the there are no security
