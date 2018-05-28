@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Initial page](README.md)
-* Configurations
-* The Frontend
-* The Backend
+* [SDLC](README.md)
+* [Configurations](configurations.md)
+* [The Frontend](untitled.md)
+* [The Backend](the-backend.md)
 

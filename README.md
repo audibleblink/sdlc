@@ -1,6 +1,6 @@
-# Initial page
+# SDLC
 
-## Getting Super Powers
+## Home
 
 Becoming a super hero is a fairly straight forward process:
 
