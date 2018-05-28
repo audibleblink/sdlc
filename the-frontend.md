@@ -233,7 +233,7 @@ dynamic language, payloads can be dynamically created.
 - Output Encoding
 - iframes
 
-### Real-World Examples
+### Examples
 
 * [Facebook XSS via Misconfigured Content-Type Headers](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
 * [XSS via X-Forwarded-For Header](https://cxsecurity.com/issue/WLB-2013090187)
@@ -280,7 +280,7 @@ CSRF is an attack that conducts a state-changing operation using the victim's ac
     for the existence of the correct XHR headers.
 
 
-### Real-World Examples
+### Examples
 
 1. Make sure you always verify CSRF token on server side
 
@@ -508,7 +508,7 @@ only accept messages from the specified origin. If we don't include this check, 
 can pass us data we're not expecting.
 
 
-### Real-World Examples
+### Examples
 Misconfigured CORS Allowed Origins can lead to some pretty scary results. Also, if you don't
 restrict CORS interaction to https only, your main site's SSL/TLS certificates are useless and
 XHR requests can be MITMd

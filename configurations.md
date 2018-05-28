@@ -5,7 +5,7 @@
 ### Protocol
 
 A protocol is just a previously-agreed upon set of rules and standards by which we choose to
-communicate. When you answer the phone, the first the yo do is say 'Hello'. This response lets the
+communicate. When you answer the phone, the first the you do is say 'Hello'. This response lets the
 caller know a few things. It lets them know a communication has been established and it lets them
 know you speak English. From that moment on, you know to continue speaking English if you want to
 continue the conversation.
